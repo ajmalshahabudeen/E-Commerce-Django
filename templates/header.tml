@@ -1,7 +1,0 @@
-{% load staticfiles %}
-
-<div>
-    <div style="text-align: center;">
-        <img src="{% static 'image/logo.png' %}" alt="this is a logo">
-    </div>
-</div>
