@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    background-color: aquamarine;
 }
 p {
     line-break: auto;
@@ -14,6 +15,9 @@ p {
 }
 
 /* ------------ NavBar -------------*/
+.navbar {
+    background-color: aqua;
+}
 
 .nav-item {
     letter-spacing: .2em;
@@ -48,6 +52,12 @@ p {
 /* --------------- Footer -------------- */
 
 .my_footer {
+    padding-top: 20px;
+    font-size: 14px;
+    background-color: aqua;
+    height: 60px;
+}
+.my_footer p {
     padding-top: 20px;
     font-size: 14px;
 }
