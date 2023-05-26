@@ -26,7 +26,7 @@
     {% endif %}
 <div>
     {% if category %}
-        <img src="{{category.image.url}}" alt="{{category.name}}">
+        <img class="CategoryImg" src="{{category.image.url}}" alt="{{category.name}}">
 
 </div><br>
 <div>
@@ -35,7 +35,7 @@
 </div>
 {% else %}
     <div>
-        <img src="{% static 'img/banner.png' %}"alt="">
+        <img class="Banner" src="{% static 'img/banner.png' %}"alt="">
     </div>
     <br>
     <div>
@@ -48,7 +48,7 @@
         {% for product in products %}
         <div>
             <div>
-                <a href="{{product.get_url}}"><img src="{{product.image.url}}" alt="{{product.name}}"></a>
+                <a href="{{product.get_url}}"><img class="ProductImg" src="{{product.image.url}}" alt="{{product.name}}"></a>
                 <div>
                     <h4>{{product.name}}</h4>
                     <p>${{product.price}}</p>

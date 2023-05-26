@@ -1,6 +1,17 @@
 body {
     font-family: sans-serif;
 }
+p {
+    line-break: auto;
+    word-break: break-all;
+}
+
+/*------------- header------------- */
+
+.Header {
+    width: 100px;
+    height: 100px;
+}
 
 /* ------------ NavBar -------------*/
 
@@ -14,6 +25,24 @@ body {
     letter-spacing: .2em;
     font-size: 14px;
     text-transform: uppercase;
+}
+
+/*---------------- body---------------- */
+
+.Banner {
+    width: 100%;
+    height: auto;
+}
+
+.ProductImg {
+    width: 500px;
+    height: auto;
+}
+
+.CategoryImg {
+    width: 500px;
+    height: auto;
+    padding-left: 25%;
 }
 
 /* --------------- Footer -------------- */
